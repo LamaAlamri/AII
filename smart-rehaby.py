@@ -1,12 +1,7 @@
 import csv     # TableOfAllExercises.from_csv()
 import random  # RehabPlan.random_plan()
-# === === === === === === === === === === === === === === === === === 
+
 from collections import OrderedDict
-# other change
-# mms
-# wlwlwlwlwlwlwlwlwwlwlwwlwlwlwlwlwwllwwlwlwlwwlwl
-# Comments s s s s s s s s s
-# Congratulations Congratulations Congratulations Congratulations Congratulations Congratulations Congratulations Congratulations كفو
 
 
 def main():
