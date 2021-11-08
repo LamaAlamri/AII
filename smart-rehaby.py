@@ -3,6 +3,8 @@ import random  # RehabPlan.random_plan()
 
 from collections import OrderedDict
 
+# mms
+
 
 def main():
     # Load the Search Space.
@@ -182,7 +184,7 @@ class RehabPlan:
 
         # to check if the generated age and condition_type are the same as optimal (what the user entered)
 
-            if exercise.age_category == optimal_plan.age_category: 
+            if exercise.age_category == optimal_plan.age_category:
                 age_category_sum += 1
             if exercise.condition_type == optimal_plan.condition_type:
                 condition_type_sum += 1
@@ -362,7 +364,7 @@ class TableOfAllExercises:
         self._data = []
 
     @classmethod
-    def from_csv(klass, filename='smart_rehab.csv'): # read from csv
+    def from_csv(klass, filename='smart_rehab.csv'):  # read from csv
         table = klass()
         table.add_from_csv(filename)
 
